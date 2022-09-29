@@ -1,0 +1,70 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.contact-link {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  padding: 20px 15px;
+}
+
+.about-link {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.backlink {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
+
+.content {
+  display: flex;
+  margin: 30px 0;
+}
+
+.email-link {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
